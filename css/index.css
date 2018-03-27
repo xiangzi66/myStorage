@@ -1,0 +1,338 @@
+/*  该文件只针对index页面 */
+.container{
+	width: 1000px;
+	margin:auto;
+}
+/**************************************************************************************************/
+/* 轮播部分 */
+#banner ul.banner-image{
+	width:1000px;
+	margin: auto;
+}
+#banner{
+	width:1000px;
+	margin:auto auto 15px auto;
+	height:455px;
+	overflow:hidden;
+	position:relative;
+}
+#banner ul.banner-image{
+	position: relative;
+}
+#banner ul.banner-image>li{
+	float: left;
+}
+#banner ul.banner-image>li img{
+	width: 1000px;
+}
+#banner a.ck-slide{
+	position:absolute;
+	top:192.5px;
+	width:35px;
+	height:70px;
+	border-radius:5px;
+	opacity:.15;
+}
+#banner a.ck-slide:hover{
+	opacity: .3;
+}
+#banner a.ck-left{
+	background:#000 url(../images/arrow-left.png) no-repeat center center;
+	left:5px;
+}
+#banner a.ck-right{
+	background:#000 url(../images/arrow-right.png) no-repeat center center;
+	right:5px;
+}
+#banner ul.indicators{
+	position:absolute;
+	bottom:14px;
+	left:50%;
+	margin-left: -44px;
+}
+#banner ul.indicators li{
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	background-color:#7E7D7E;
+	float:left;
+	margin-right:12px;
+}
+
+#banner ul.indicators li:hover{
+	cursor:pointer;
+	background:#0D8FD1;
+}
+#banner ul.indicators>li.hover{ background:#0D8FD1; }
+/**************************************************************************************************/
+/* 热门活动 */
+#shopMian{
+    position: relative;
+}
+#shopMian .am-u-sm-3{
+    position: relative;
+    float: left;
+    width:25%;
+}
+#shopMian .recommendation .am-u-sm-3 h3{
+    line-height: 22px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+#shopMian .am-u-sm-3 h4{
+    color: #333;
+}
+#shopMian .recommendationMain{
+    width: 100%;
+    height: 145px;
+    position: relative;
+    padding: 5px 0 0;
+}
+#shopMian .recommendation img{
+    width:120px;
+    height: 120px;
+    position:absolute;
+    right: 9px;
+    top: 14px;
+    transition: all .2s;
+}
+#shopMian .recommendationMain img:hover{
+    right:25px;
+}
+#shopMian .clock{
+    display: block;
+    width:25%;
+    height: 145px;
+    background: url("../images/clockbg.png") repeat;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+#shopMian .clock img{
+    position: absolute;
+    width:120px;
+    right: 12%;
+    top: 15px;
+}
+#shopMian .clock p{
+    display: block;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    left: 22px;
+}
+#shopMian .info{
+    position: absolute;
+    top: 20%;
+    border-left: 1px solid #e8e4de;
+    padding: 15px;
+    height: 60%;
+}
+#shopMian .shopTitle{
+	text-align: left;
+	position: relative;
+	border-bottom: 2px solid #000;
+	background: #fff;
+	width: 100%;
+	overflow: hidden;
+	margin: 8px 0 8px;
+	padding: 5px 0 8px;
+}
+#shopMian .shopTitle>h4{
+	float: left;
+	font-size: 20px;
+}
+#shopMian .shopTitle>h3{
+	float:left;
+	margin-left: 10px;
+	position: absolute;
+	left: 40px;
+	bottom: 8px;
+	color: #999;
+}
+#shopMian .activity .shopcontent{
+	background: #fff;
+	padding: 10px 0px;
+}
+#shopMian .activity .shopContent .am-u-sm-3{
+	float: left;
+	width:25%;
+	position: relative;
+	padding-left:5px;
+}
+#shopMian .activity .shopContent .am-u-sm-3 .info h3{
+	font-size: 14px;
+	color: #333;
+	font-family: arial,"Lantinghei SC","Microsoft Yahei";
+}
+#shopMian .activity .shopContent .am-u-sm-3 img{
+	width: 100%;
+}
+#shopMian .activity .shopContent .am-u-sm-3 h4{
+	position: absolute;
+	color: #FAF7D8;
+	top: 20px;
+	left: 10px;
+}
+#shopMian .activity .shopContent .am-u-sm-3 .icon-sale{
+	position: absolute;
+	border-right: 100px solid transparent;
+}
+#shopMian .activity .shopContent .am-u-sm-3 .info{
+	font-size: 16px;
+	width:90%;
+	height: 32px;
+	background: #EEE;
+	text-align: center;
+	position: absolute;
+	left:5%;
+	top: 220px;
+	padding: 5px;
+}
+#shopMian .one_m{
+	border-top: 98px solid #9B0D5F;
+}
+#shopMian .two{
+	border-top: 98px solid #B48C66;
+}
+#shopMian .three{
+	border-top: 98px solid #7FB113;
+}
+#shopMian .four{
+	border-top: 98px solid #0087E5;
+}
+
+/*楼层加载*/
+.flo .flood{
+	position: relative;
+	height: 465px;
+}
+.flo .fl{
+	float: left;
+	width: 20%;
+	background: #FEFEFE;
+}
+.flo .text-one{
+	position: relative;
+	text-align: center;
+	height: 100%;
+}
+.flo .text-one img{
+	width:100%;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+.flo .text-one .word ul{
+	position: absolute;
+	top: 10px;
+}
+.flo .text-one .word ul>li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: #fff;
+	margin:4px 8px;
+	line-height: 50px;
+}
+.flo .text-one .triangle{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-left: 28px solid #FEFEFE;
+}
+.flo .flood .auter-con{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 36%;
+}
+.flo .flood .auter-con .title{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+.flo .flood .auter-con .sub-title{
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.flo .text-two,.text-three,.text-four,.text-five{
+	height: 100%;
+	border-right: 2px solid #eee;
+	position: relative;
+}
+.flo .text-five{
+	border-right: none;
+}
+.flo .flood .up,.down{
+	position: relative;
+	height: 50%;
+	text-align: center;
+}
+.flo .flood .up{
+	border-bottom: 2px solid #eee;
+}
+.flo .flood .sig .outer-con{
+	position: absolute;
+	text-align: left;
+	margin: 0;
+	padding: 0 14px;
+	bottom: 10px;
+}
+
+.flo .flood .sig .outer-con .title{
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+.flo .flood .sig .outer-con .sub-title{
+	font-size: 12px;
+	color: #666;
+}
+.flo .flood .sig img{
+	width: 150px;
+	transition: all .6s linear;
+}
+.flo .flood .sig img:hover{
+	width: 170px;
+}
+.flo .flood .dou{
+	text-align: center;
+	position: relative;
+}
+.flo .flood .dou img{
+	width: 170px;
+	position: relative;
+	top: 160px;
+	transition: all .6s linear;
+}
+.flo .flood .dou img:hover{
+	width: 195px;
+}
+.flo .flood .dou .outer-con{
+	padding: 20px;
+	text-align: left;
+	position: absolute;
+	top: 40px;
+}
+#f1 .text-one{ background: #6BDEA7; }
+#f2 .text-one{ background: #FF9229; }
+#f3 .text-one{ background: #B474FE; }
+#f4 .text-one{ background: #82CEFF; }
+#f5 .text-one{ background: #6CC67C; }
+#f6 .text-one{ background: #FE7A65; }
+#f1 .text-one .triangle{ border-top:28px solid #68937F; }
+#f2 .text-one .triangle{ border-top:28px solid #D17B28; }
+#f3 .text-one .triangle{ border-top:28px solid #594E90; }
+#f4 .text-one .triangle{ border-top:28px solid #728FB9; }
+#f5 .text-one .triangle{ border-top:28px solid #648B6C; }
+#f6 .text-one .triangle{ border-top:28px solid #CD6655; }
+
+

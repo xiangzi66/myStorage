@@ -1,0 +1,128 @@
+/* *************************************页面头部 *****************************************************/
+/*顶部导航条*/
+.container{
+    width: 1000px;
+    margin:auto;
+}
+#header{
+    margin:10px auto 0;
+}
+#header>.am-container{
+    margin:5px auto;
+}
+#header>.am-container>.message-l{
+    float: left;
+}
+#header>.am-container>.message-l>li{
+    float: left;
+    margin: 0 10px 0;
+}
+#header>.am-container>.message-r{
+    color: #000;
+    float: right;
+}
+#header>.am-container>.message-r>li{
+    float: left;
+    margin: 0 10px 0;
+}
+/*悬浮搜索框*/
+#header .logo{
+    float: left;
+}
+#header .search{
+    float:right;
+    position: relative;
+    right:70px;
+}
+.search form{
+    display:block;
+    max-width: 670px;
+}
+.search{
+    height: 90px;
+}
+.search input{
+    height: 46px;
+    border:2px solid #f30726;
+    display: block;
+    float: left;
+    margin-top: 22px;
+}
+#search-input{
+    width:550px;
+    padding:0 10px 0;
+}
+#search-input:focus{
+    outline: none;
+}
+#top-search{
+    width: 100px;
+    background: #F03726;
+    color: white;
+    cursor: pointer;
+}
+/*购物导航*/
+#shopNav{
+    width:1000px;
+    margin:auto;
+    position: relative;
+}
+#shopNav .nav-cont{
+    width:850px;
+}
+#shopNav .long-title,.nav-cont{
+    float: left;
+}
+#shopNav ul{
+    float:left;
+}
+#shopNav ul>li{
+    float:left;
+    color:#333;
+    font-size: 16px;
+    width:98px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+#shopNav ul>li:hover{
+    background: #DADADA;
+}
+#shopNav .nav-extra{
+    float:right;
+    position: relative;
+    right:0;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #E53E52;
+    font-size: 16px;
+    color:#FCFF00;
+    cursor: pointer;
+}
+#shopNav .nav-cont>span{
+    width: 160px;
+    height: 33px;
+
+}
+#shopNav .line{
+    display: block;
+    width: 1000px;
+    height:2px;
+    border-bottom: 2px solid #D2364C;
+    position: absolute;
+    bottom: 0;
+    clear: both;
+}
+.long-title {
+    background: #d2364c;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+}

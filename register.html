@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<div class="container">
+    <!--注册头部-->
+    <div class="login-title">
+        <a href="index.html">
+            <img src="images/logobig.png" alt=""/>
+        </a>
+    </div>
+    <!--注册主体-->
+    <div class="login-banner">
+        <div class="login-main">
+            <div class="login-banner-bg">
+                <img src="images/big.jpg" alt=""/>
+            </div>
+            <div class="login-box">
+                <form action="">
+                    <div class="text">
+                        <span class="title">新用户注册</span>
+                        <span class="login-btn"><a href="login.html">直接登陆</a></span>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label for="uname">用户名:</label>
+                        </p>
+
+                        <input type="text" id="uname" name="uname"  require autofocus minlength="6" maxlength="9" placeholder="请输入用户名"/>
+                        <span></span>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label for="upwd">密码:</label>
+                        </p>
+                        <input type="password" id="upwd" name="upwd"  require minlength="3" maxlength="8"  placeholder="请输入密码"/>
+                        <span></span>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label for="upwd1">确认密码:</label>
+                        </p>
+                        <input type="password" id="upwd1"  require minlength="3" maxlength="8" placeholder="请确认密码"/>
+                        <span></span>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label for="email">邮箱:</label>
+                        </p>
+                        <input type="email" id="email" name="email"  require  placeholder="请输入邮箱"/>
+                        <span></span>
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <label for="phone">手机号:</label>
+                        </p>
+                        <input type="text" id="phone" name="phone"  require  placeholder="请输入手机号"/>
+                        <span></span>
+                    </div>
+                    <div>
+                        <input type="submit" id="register-btn" value="提交注册信息"/>
+                    </div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--注册尾部-->
+    <div class="login-footer">
+        <div class="footer-hd">
+            <p>
+                <a href="javascript:">恒望科技</a><b>|</b>
+                <a href="javascript:">商城首页</a><b>|</b>
+                <a href="javascript:">支付宝</a><b>|</b>
+                <a href="javascript:">物流</a>
+            </p>
+        </div>
+        <div class="footer-bd">
+            <p>
+                <a href="javascript:">关于恒望</a>
+                <a href="javascript:">合作伙伴</a>
+                <a href="javascript:">联系我们</a>
+                <a href="javascript:">网站地图</a>
+                <em>"© 2015-2025 Hengwang.com 版权所有"</em>
+            </p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.container{
+	width:100%;
+	margin: auto;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*样式重置*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	position:relative;
+	background:#fefefe;
+	font:14px "Arial";
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:#007dd3;
+	text-decoration:none;
+}
+ul,ol{
+	list-style:none;
+}
+/*input{*/
+	/*border:1px solid #cfcfcf;*/
+	/*outline:none;*/
+	/*color:#cfcfcf;*/
+	/*font-size:14px;*/
+/*}*/

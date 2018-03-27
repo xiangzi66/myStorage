@@ -1,0 +1,28 @@
+/* 页面底部 */
+.container{
+    width: 1000px;
+    margin:auto;
+}
+#footer0{
+    height:100px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    border-top: 2px solid #FF5400;
+}
+#footer0 .footer-hd p{
+    height: 30px;
+    line-height: 25px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+
+}
+#footer0 .footer-hd p a{
+    margin-right: 8px;
+    color: #6C6C6C;
+}
+#footer0 .footer-hd p b{
+    color: #E6DFDD;
+}

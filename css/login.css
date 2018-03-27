@@ -1,0 +1,118 @@
+/*该页面只针对login页面*/
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+/*登录头部*/
+.login-title{
+    margin: 10px auto;
+}
+/*登录主体*/
+.login-main{
+    height: 470px;
+    background: #FD7A72;
+    position: relative;
+}
+.login-main .login-banner-bg,.login-box{
+    float: left;
+    background: #FD7A72;
+}
+.login-main .login-box{
+    width: 100%;
+    max-width: 360px;
+    height: 370px;
+    background: #F8F8F8;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    text-align: center;
+}
+.login-main .login-box .login-con{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    text-align: center;;
+}
+.login-main .login-box h3.title{
+    padding: 15px;
+    position: relative;
+    bottom: 10px;
+    font-weight: 600;
+}
+#uname{
+    background-image: url(../images/yhm.png);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+#upwd{
+    background-image: url(../images/mm.png);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+.login-main .login-box .login-form input{
+    width: 320px;
+    height: 42px;
+    line-height: 42px;
+    padding: 10px 40px 10px 10px;
+    border: none;
+}
+.login-main .login-box .login-links{
+    width: 320px;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 20px;
+}
+.login-main .login-box .remember-mi,.forget-mi{
+    display: inline-block;
+}
+.login-main .login-box .remember-mi{
+    float: left;
+}
+.login-main .login-box .forget-mi{
+    float: right;
+}
+.register-btn{
+    height: 32px;
+    line-height: 32px;
+    padding:0 5px;
+    color: #444;
+    font-size: 14px;
+    background-color: #E6E6E6;
+    position: absolute;
+    top: 0;
+    right: 25px;;
+    float: right;
+}
+#login-btn{
+    width: 320px;
+    height: 37px;
+    background: #0E90D2;
+    border: none;
+    color: #fff;
+}
+
+/*登陆尾部*/
+.login-footer{
+    height:100px;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+}
+.login-footer .footer-hd p{
+    height: 30px;
+    line-height: 25px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+
+}
+.login-footer .footer-hd p a{
+    margin-right: 8px;
+    color: #6C6C6C;
+}
+.login-footer .footer-hd p b{
+    color: #E6DFDD;
+}

@@ -1,0 +1,186 @@
+/*  该文件只针对introduction页面 */
+.container{
+    width: 1000px;
+    margin:auto;
+}
+/***************************************************************************************************/
+/*面包屑*/
+.bread>ul{
+    margin: 15px 0;
+}
+.bread>ul>li,.bread>ul>span{
+    float: left;
+    margin: 0 10px;
+}
+/********商品预览********/
+.item-info{
+    margin-bottom: 22px;
+}
+/*左侧图片*/
+.item-info .left,.item-info .right{
+    float: left;
+}
+.item-info .left img{
+    border: 1px solid #CDCDCD;
+    margin: 5px;
+}
+.item-info .left>ul>li{
+    float: left;
+}
+#large-img{
+    width: 350px;
+    height: 350px;
+}
+/*右侧信息*/
+.item-info .right>.title{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.item-info .right>.detail-list>.price{
+    width: 632px;
+    padding: 10px;
+
+    background: #F7F7F7;
+    border-radius: 2px;
+}
+.item-info .right>.detail-list>.price>div{
+    padding: 10px;
+}
+.item-info .right>.detail-list>.price em{
+    color: #CC0000;
+    font-size: 24px;
+}
+.item-info .right>.detail-list>.taste,.packaging,.count{
+    margin: 10px;
+    padding: 10px;
+}
+.item-info .right>.detail-list>.lis>div{
+    float: left;
+}
+.item-info .right>.detail-list>.lis>.tit{
+    padding: 12px;
+    margin-right: 7px;
+    color: #888;
+}
+.item-info .right>.detail-list>.lis>.ul>div{
+    float: left;
+    padding: 7px;
+    margin-right: 5px;
+    border: 2px solid #F5F5F5;
+    cursor: pointer;
+}
+.item-info .right>.detail-list>.count>.count-group{
+    padding: 12px;
+    margin-right: 7px;
+}
+.item-info .right>.detail-list>.count>.count-group>button{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+.item-info .right>.detail-list>.count>.count-group>input{
+    width: 30px;
+}
+.item-info .right>.pay{
+    text-align: center;
+}
+.item-info .right>.pay>button{
+    width: 100px;
+    height: 32px;
+    margin: 0 10px;
+    border: 1px solid #F03726;
+    cursor: pointer;
+}
+.item-info .right>.pay>.buy{
+     background: #FFEDED;
+     color: #F03726;
+ }
+.item-info .right>.pay>.cart{
+    background: #F03726;
+    color: #fff;
+}
+.item-info .right .detail-list .lis .ul .selected{
+    border:2px solid #BE0106;
+    position: relative;
+}
+.item-info .right .detail-list .lis .ul .selected i{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 0;
+    bottom: 0;
+    background: url('../images/sys_item_selected.gif');
+}
+
+/*********宝贝详情***********/
+.detail>.left{
+    float: left;
+    width: 200px;
+    border: 1px solid #D4D4D4;
+    text-align: center;
+}
+.detail>.left>h4{
+    background: #F7F7F7;
+    padding: 10px 0;
+}
+.detail>.left>ul{
+    margin: 10px auto;
+    padding: 10px auto;
+    border-bottom: 1px dotted #DEDEDE;
+}
+.detail>.left>ul .p-price{
+    color: #E4393C;
+    margin: 5px auto;
+    text-align: center;
+    font-weight: 600;
+}
+.detail>.right{
+    float: right;
+    width: 800px;
+    padding: 0 15px;
+}
+.detail>.detail-top>ul{
+    background: #F5F5F5;
+}
+.detail>.detail-top>ul>li{
+    float: left;
+    padding:12px 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.detail>.detail-top>ul>.active{
+    border-top: 2px solid #F03726;
+}
+/*产品参数*/
+.detail>.right .parameter{
+    margin:20px auto;
+}
+.detail>.right .parameter>.title{
+    width:85px;
+    height: 35px;
+    border-bottom: 1px solid #f70;
+}
+.detail>.right .parameter>.ul{
+    padding: 10px;
+}
+.detail>.right .parameter>.ul>ul>li{
+    float: left;
+    width: 33.33%;
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+/*商品细节*/
+.detail>.right .spefic{
+    margin:20px auto;
+}
+.detail>.right .spefic>.title{
+    width:85px;
+    height: 35px;
+    border-bottom: 1px solid #f70;
+}
+.detail>.right .spefic>.img{
+    margin-top: 10px;
+}
+

@@ -1,0 +1,111 @@
+/*  该文件只针对shopcart页面 */
+.container{
+    width: 1000px;
+    margin:auto;
+}
+/*****************************************************************************************************/
+/************购物车主体**************/
+.shopcart{
+    width: 100%;
+}
+/*cart-header*/
+.shopcart .cart-header{
+    width: 100%;
+    height: 50px;
+    background: #eee;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.shopcart .cart-header .th{
+    position: relative;
+    line-height: 50px;
+}
+.shopcart .cart-body>.tr{
+    width: 100%;
+    height: 115px;
+}
+.shopcart .tr>.th,.td{
+    float: left;
+}
+.shopcart .tr>.th-info,.td-info{ width:50%; }
+.shopcart .tr>.th-price,.td-price{ width:14%;text-align: center; }
+.shopcart .tr>.th-count,.td-count{ width:12%;text-align: center }
+.shopcart .tr>.th-total,.td-total{ width:12%;text-align: center }
+.shopcart .tr>.th-oper,.td-oper{ width:12%;text-align: center }
+
+.shopcart .tr>.td-price,.td-count,.td-total,.td-oper{
+    height: 100%;
+    line-height: 100px;
+}
+
+.shopcart .cart-header .th-info>span{ margin-left: 40px; }
+
+/*cart-body*/
+.shopcart .cart-body .td-info>div{
+    position: relative;
+}
+.shopcart .cart-body .td-info>div{
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.shopcart .cart-body .td-info>.info{
+    width: 215px;
+    padding: 15px 3px;
+}
+.shopcart .cart-body .td-info>.spe{
+    width: 165px;
+    padding: 15px 3px;
+}
+.shopcart .cart-body .td-info>.check>input{
+    margin: 15px 5px;
+}
+.shopcart .cart-body .td-info>.img>img{
+    margin: 10px 5px;
+}
+.shopcart .cart-body .td-info>.spe>span{
+    display: block;
+}
+.shopcart .cart-body .td-count>button{
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+}
+.shopcart .cart-body .td-count>input{
+    width: 20px;
+    height: 17px;
+    border: 1px solid #ddd;
+}
+
+/*cartfooter*/
+.shopcart .cart-footer{
+    width: 100%;
+    height: 50px;
+    background: #eee;
+    border-radius: 4px;
+}
+.shopcart .cart-footer>.left{
+    float: left;
+}
+.shopcart .cart-footer>.right{
+    float: right;
+}
+.shopcart .cart-footer .left>div,.right>div{
+    float: left;
+    width: auto;
+    height: 100%;
+    line-height: 50px;
+    margin: 0 10px;
+    position: relative;
+    bottom: 2px;
+}
+#total{
+    width: 80px;
+    height: 50px;
+    background: #FF4400;
+    color: #fff;
+    border: none;
+}
+.shopcart .cart-footer>.right>.total{
+    margin-right: 0;
+}

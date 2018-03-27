@@ -1,0 +1,118 @@
+/*****该页面指针对search页面******/
+.container{
+    width: 1000px;
+    margin: auto;
+}
+/*****************************************************/
+/*theme-popover*/
+#search-main .theme-popover .searchAbout{
+    padding: 10px;
+}
+#search-main .theme-popover .select{
+    padding: 5px 10px;
+    box-shadow: 0px 0px 2px #999;
+    margin-top: 5px;
+    background: #fff;
+}
+#search-main .theme-popover .select>.title{
+    margin-bottom: 10px;
+}
+
+#search-main .theme-popover .select>.select-list{
+    border-top: 1px dashed #eee;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+}
+#search-main .theme-popover .select>.select-list>div{
+    float: left;
+}
+#search-main .theme-popover .select>.select-list>.li-left{
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+    font-weight: bold;
+}
+#search-main .theme-popover .select>.select-list>.li-right li{
+    float: left;
+    margin-right: 25px;
+    border-radius: 2px;
+}
+#search-main .theme-popover .select>.select-list>.li-right li>a{
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+#search-main .theme-popover .select>.select-list>.li-right li>a:hover{
+    color: #f60;
+    background: #F3EDC2;
+}
+#search-main .theme-popover .select>.select-list>.li-right li.select-all>a{
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding:3px 8px;
+}
+/*content 中间图片部分*/
+#search-main .content>.sort{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #F5F5F5;
+    text-align: center;
+    margin: 10px 0;
+}
+#search-main .content ul>li{
+    width: 25%;
+    height: 324px;
+    float: left;
+}
+#search-main .content ul>li>div{
+    border: 1px solid #E8E8E8;
+    margin: 10px;
+}
+#search-main .content ul>li>div:hover{
+    box-shadow: 0px 12px 12px -10px rgba(0,0,0,.4);
+}
+#search-main .content ul>li .price{
+    color: #E4393C;
+    margin: 6px 2px 8px;
+}
+#search-main .content ul>li img{
+    width: 100%;
+}
+/*分页部分*/
+#search-main .page{
+    width: 100%;
+    padding: 20px 10px;
+}
+#search-main .page>ul{
+    float: right;
+}
+
+#search-main .page>ul>li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #DDD;
+    margin-left: 10px;
+}
+#search-main .page>ul>li>a{
+    padding: 0 11px;
+}
+#search-main .page>ul>li:hover{
+    background:#eee;
+}
+#search-main .page>ul>.active,#search-main .page>ul>.active:hover{
+    background: #0E90D2;
+    border: none;
+}
+#search-main .page>ul>.active>a{
+    color: #D9FFFC;
+}
+
+.select-active{
+    color:#f00;
+    border: #999 solid 1px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/shopcart.css"/>
+</head>
+<body>
+<div class="container">
+    <!-- 页面头部 -->
+    <div id="header"></div>
+    <!--购物车主体-->
+    <div class="shopcart">
+        <div class="cart-header">
+            <div class="tr">
+                <div class="th th-info"><span>商品信息</span></div>
+                <div class="th th-price"><span>单价</span></div>
+                <div class="th th-count"><span>数量</span></div>
+                <div class="th th-total"><span>金额</span></div>
+                <div class="th th-oper"><span>操作</span></div>
+            </div>
+        </div>
+        <div class="cart-body">
+            <div class="tr">
+                <div class="td td-info">
+                    <div class="check"><input type="checkbox"/></div>
+                    <div class="img"><img src="images/kouhong.jpg_80x80.jpg" alt=""/></div>
+                    <div class="info"><a href="#">美康粉黛最美唇膏 持久保湿 滋润防水不掉色</a></div>
+                    <div class="spe">
+                        <span>颜色 : 12#川南玛瑙</span>
+                        <span>包装 : 裸装</span>
+                    </div>
+                </div>
+                <div class="td td-price">¥39.50</div>
+                <div class="td td-count">
+                    <button class="reduce">-</button>
+                    <input type="text" value="1"/>
+                    <button class="add">+</button>
+                </div>
+                <div class="td td-total">¥39.50</div>
+                <div class="td td-oper">
+                    <a href="javascript:">删除</a>
+                </div>
+            </div>
+            <div class="tr">
+                <div class="td td-info">
+                    <div class="check"><input type="checkbox"/></div>
+                    <div class="img"><img src="images/kouhong.jpg_80x80.jpg" alt=""/></div>
+                    <div class="info"><a href="#">美康粉黛最美唇膏 持久保湿 滋润防水不掉色</a></div>
+                    <div class="spe">
+                        <span>颜色 : 12#川南玛瑙</span>
+                        <span>包装 : 裸装</span>
+                    </div>
+                </div>
+                <div class="td td-price">¥39.00</div>
+                <div class="td td-count">
+                    <button class="reduce">-</button>
+                    <input type="text" value="1"/>
+                    <button class="add">+</button>
+                </div>
+                <div class="td td-total">¥39.00</div>
+                <div class="td td-oper">
+                    <a href="javascript:">删除</a>
+                </div>
+            </div>
+            <div class="tr">
+                <div class="td td-info">
+                    <div class="check"><input type="checkbox"/></div>
+                    <div class="img"><img src="images/kouhong.jpg_80x80.jpg" alt=""/></div>
+                    <div class="info"><a href="#">美康粉黛最美唇膏 持久保湿 滋润防水不掉色</a></div>
+                    <div class="spe">
+                        <span>颜色 : 12#川南玛瑙</span>
+                        <span>包装 : 裸装</span>
+                    </div>
+                </div>
+                <div class="td td-price">¥39.00</div>
+                <div class="td td-count">
+                    <button class="reduce">-</button>
+                    <input type="text" value="1"/>
+                    <button class="add">+</button>
+                </div>
+                <div class="td td-total">¥39.00</div>
+                <div class="td td-oper">
+                    <a href="javascript:">删除</a>
+                </div>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="left">
+                <div class="check">
+                    <input type="checkbox"/>
+                    &nbsp;全选
+                </div>
+                <div class="del">
+                    <a href="javascript:">删除</a>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <span>已选商品</span>
+                    <em id="select-count">0</em>
+                    <span>件</span>
+                </div>
+                <div>
+                    <span>合计:</span>
+                    <span id="total-price"></span>
+                </div>
+                <div class="total">
+                    <button id="total">结算</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- 页面底部 -->
+    <div id="footer"></div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/shopcart.js"></script>
+<script>
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+</script>
+</body>
+</html>
